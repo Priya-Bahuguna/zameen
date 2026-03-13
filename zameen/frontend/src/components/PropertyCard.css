@@ -1,0 +1,23 @@
+.prop-card { background:#fff; border-radius:14px; overflow:hidden; border:1px solid #e2e8f0; cursor:pointer; transition:transform .2s,box-shadow .2s; }
+.prop-card:hover { transform:translateY(-5px); box-shadow:0 12px 32px rgba(0,0,0,.13); }
+.prop-img-wrap { position:relative; height:195px; overflow:hidden; }
+.prop-img { width:100%; height:100%; object-fit:cover; transition:transform .4s; }
+.prop-card:hover .prop-img { transform:scale(1.06); }
+.prop-type-badge { position:absolute; top:12px; left:12px; padding:4px 11px; border-radius:20px; font-size:11px; font-weight:700; color:#fff; }
+.buy  { background:#16a34a; }
+.rent { background:#f97316; }
+.prop-verified { position:absolute; top:12px; right:12px; background:rgba(22,163,74,.9); color:#fff; padding:4px 9px; border-radius:20px; font-size:11px; font-weight:600; }
+.prop-hot { position:absolute; bottom:12px; left:12px; background:rgba(220,38,38,.88); color:#fff; padding:3px 9px; border-radius:20px; font-size:11px; font-weight:700; }
+.prop-body { padding:14px 16px; }
+.prop-title { font-size:14px; font-weight:700; color:#0d1b2a; margin-bottom:4px; line-height:1.4; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.prop-loc   { font-size:12px; color:#64748b; margin-bottom:10px; }
+.prop-specs { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+.prop-specs span { font-size:11px; color:#475569; background:#f1f5f9; padding:3px 8px; border-radius:6px; font-weight:500; }
+.furn-tag  { font-size:11px; padding:3px 8px; border-radius:6px; font-weight:600; }
+.furn-yes  { background:#dcfce7; color:#16a34a; }
+.furn-semi { background:#fef9c3; color:#854d0e; }
+.furn-no   { background:#fee2e2; color:#dc2626; }
+.prop-footer { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.prop-price  { font-size:15px; font-weight:800; color:#16a34a; }
+.prop-btn    { background:none; border:1.5px solid #16a34a; color:#16a34a; font-size:12px; font-weight:600; padding:6px 12px; border-radius:8px; transition:all .2s; cursor:pointer; }
+.prop-btn:hover { background:#16a34a; color:#fff; }

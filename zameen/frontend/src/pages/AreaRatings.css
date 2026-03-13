@@ -1,0 +1,31 @@
+.ar-page { padding-bottom: 60px; }
+.ar-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+.ar-list { display: flex; flex-direction: column; gap: 10px; }
+.ar-row  { display: flex; align-items: center; gap: 12px; padding: 14px 16px; cursor: pointer; transition: all .2s; }
+.ar-row:hover, .ar-active { border-color: #16a34a !important; box-shadow: 0 0 0 2px rgba(22,163,74,.15); }
+.ar-rank { font-size: 18px; font-weight: 800; color: #94a3b8; width: 28px; flex-shrink: 0; }
+.ar-info { flex: 1; min-width: 0; }
+.ar-name { font-size: 14px; font-weight: 700; color: #0d1b2a; }
+.ar-sub  { font-size: 11px; color: #64748b; text-transform: capitalize; }
+.ar-score-col { text-align: center; flex-shrink: 0; }
+.ar-big-score { font-size: 22px; font-weight: 800; }
+.ar-score-label{ font-size: 11px; color: #94a3b8; }
+.ar-mini-bars { display: flex; flex-direction: column; gap: 4px; }
+.mini-bar-row { }
+.ar-empty { padding: 40px; text-align: center; }
+.ar-detail-card { padding: 24px; }
+.ar-detail-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 22px; }
+.ar-detail-name { font-size: 20px; font-weight: 800; color: #0d1b2a; }
+.ar-detail-city { font-size: 13px; color: #64748b; margin-top: 3px; }
+.ar-detail-score { font-size: 42px; font-weight: 800; line-height: 1; }
+.ar-detail-score span { font-size: 18px; color: #94a3b8; font-weight: 500; }
+.params-grid { display: flex; flex-direction: column; gap: 12px; }
+.param-row   { display: flex; align-items: center; gap: 10px; }
+.param-label { display: flex; gap: 6px; align-items: center; font-size: 13px; color: #475569; font-weight: 500; width: 110px; flex-shrink: 0; }
+.param-bar-wrap { flex: 1; }
+.param-val   { font-size: 14px; font-weight: 800; width: 26px; text-align: right; flex-shrink: 0; }
+.ar-extra-stats { display: flex; justify-content: space-around; margin-top: 22px; padding-top: 18px; border-top: 1px solid #f1f5f9; }
+.extra-stat { text-align: center; }
+.extra-val  { font-size: 20px; font-weight: 800; color: #0d1b2a; }
+.extra-lbl  { font-size: 11px; color: #94a3b8; margin-top: 2px; }
+@media(max-width: 800px) { .ar-layout { grid-template-columns: 1fr; } }

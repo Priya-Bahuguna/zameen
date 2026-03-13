@@ -1,0 +1,15 @@
+.ph-page { padding-bottom: 60px; }
+.ph-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 20px; }
+.ph-card { padding: 20px; }
+.ph-card-head { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
+.ph-loc-name { font-size: 16px; font-weight: 700; color: #0d1b2a; }
+.ph-city     { font-size: 12px; color: #64748b; margin-top: 2px; }
+.ph-zone-badge { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 20px; text-transform: capitalize; }
+.ph-zone-badge[data-zone="expensive"] { background: #fee2e2; color: #dc2626; }
+.ph-zone-badge[data-zone="growing"]   { background: #dcfce7; color: #16a34a; }
+.ph-zone-badge[data-zone="affordable"]{ background: #dbeafe; color: #1d4ed8; }
+.ph-metrics  { display: flex; gap: 16px; margin-bottom: 16px; }
+.ph-metric   { flex: 1; text-align: center; background: #f8fafc; border-radius: 8px; padding: 10px 6px; }
+.ph-metric-val { font-size: 15px; font-weight: 800; color: #0d1b2a; }
+.ph-metric-lbl { font-size: 10px; color: #94a3b8; margin-top: 2px; }
+.ph-psf      { font-size: 13px; font-weight: 700; color: #2563eb; }

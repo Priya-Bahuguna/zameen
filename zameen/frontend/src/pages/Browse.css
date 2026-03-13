@@ -1,0 +1,18 @@
+.browse-page { display:flex; max-width:1400px; margin:0 auto; padding:24px 20px; gap:24px; align-items:flex-start; min-height:80vh; }
+.browse-sidebar { width:230px; flex-shrink:0; padding:20px; position:sticky; top:80px; }
+.sidebar-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; }
+.sidebar-title { font-size:15px; font-weight:700; color:#0d1b2a; }
+.clear-btn { background:none; border:none; color:#16a34a; font-size:12px; font-weight:600; cursor:pointer; }
+.sb-city-list { display:flex; flex-direction:column; gap:5px; margin-bottom:16px; }
+.sb-city-btn { text-align:left; background:none; border:1.5px solid #e2e8f0; border-radius:7px; padding:7px 10px; font-size:12px; color:#475569; font-weight:500; cursor:pointer; transition:all .2s; }
+.sb-city-btn:hover  { border-color:#16a34a; color:#16a34a; }
+.sb-city-btn.active { border-color:#16a34a; background:#dcfce7; color:#16a34a; font-weight:700; }
+.price-row { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+.check-label { display:flex; align-items:center; gap:8px; font-size:13px; color:#475569; font-weight:500; cursor:pointer; margin-bottom:16px; }
+.check-label input { width:15px; height:15px; accent-color:#16a34a; cursor:pointer; }
+.apply-btn  { width:100%; justify-content:center; }
+.browse-main { flex:1; min-width:0; }
+.browse-topbar { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:20px; gap:12px; flex-wrap:wrap; }
+.found-count { font-size:13px; color:#64748b; margin-top:4px; }
+.sort-select { width:auto; padding:8px 12px; }
+@media(max-width:800px){ .browse-page{flex-direction:column;} .browse-sidebar{width:100%;position:static;} }

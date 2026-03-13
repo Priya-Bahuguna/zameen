@@ -1,0 +1,30 @@
+.inv-page { padding-bottom: 60px; }
+.inv-controls { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+.sort-drop { width: auto; padding: 8px 12px; }
+.top-picks { background: linear-gradient(135deg,#061a0c,#1a4a2e); border-radius: 14px; padding: 20px 24px; margin-bottom: 24px; }
+.top-pick-badge { font-size: 12px; color: #4ade80; font-weight: 700; margin-bottom: 6px; }
+.top-pick-name  { font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 6px; }
+.top-pick-meta  { font-size: 13px; color: #cbd5e1; }
+.top-pick-meta strong { color: #4ade80; }
+.inv-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.inv-card { padding: 20px; }
+.inv-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px; }
+.inv-name { font-size: 17px; font-weight: 800; color: #0d1b2a; }
+.inv-city { font-size: 12px; color: #64748b; margin-top: 3px; }
+.zone-tag { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; }
+.zone-expensive { background: #fee2e2; color: #dc2626; }
+.zone-growing   { background: #dcfce7; color: #16a34a; }
+.zone-affordable{ background: #dbeafe; color: #1d4ed8; }
+.inv-ring-wrap { position: relative; width: 80px; height: 80px; flex-shrink: 0; }
+.inv-ring-num  { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 22px; font-weight: 800; }
+.inv-score-label { font-size: 12px; font-weight: 700; margin-bottom: 14px; }
+.inv-metrics { display: flex; justify-content: space-between; gap: 6px; margin-bottom: 16px; }
+.inv-metric  { flex: 1; text-align: center; background: #f8fafc; border-radius: 8px; padding: 8px 4px; }
+.inv-metric-val { font-size: 14px; font-weight: 800; color: #0d1b2a; }
+.inv-metric-lbl { font-size: 9px; color: #94a3b8; margin-top: 2px; }
+.inv-bars { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+.inv-bar-row { display: flex; align-items: center; gap: 8px; }
+.inv-bar-label { font-size: 10px; color: #64748b; width: 72px; flex-shrink: 0; }
+.inv-bar-pct   { font-size: 11px; font-weight: 700; color: #475569; width: 24px; text-align: right; }
+.inv-projection { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; background: #f0fdf4; border-radius: 8px; font-size: 12px; color: #475569; }
+.inv-projection strong { font-size: 14px; }

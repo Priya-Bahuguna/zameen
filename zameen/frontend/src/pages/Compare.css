@@ -1,0 +1,21 @@
+.cmp-page { padding-bottom: 60px; }
+.cmp-selectors { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 28px; }
+.cmp-slot { padding: 18px; }
+.slot-label { font-size: 11px; font-weight: 700; color: #94a3b8; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 10px; }
+.slot-preview { display: flex; flex-direction: column; align-items: center; margin-top: 14px; padding-top: 14px; border-top: 1px solid #f1f5f9; }
+.slot-score { font-size: 28px; font-weight: 800; }
+.slot-score-lbl { font-size: 11px; color: #94a3b8; margin-top: 2px; }
+.cmp-table-wrap { overflow-x: auto; }
+.cmp-table { width: 100%; border-collapse: collapse; }
+.cmp-table th { padding: 14px 16px; text-align: left; background: #f8fafc; border-bottom: 2px solid #e2e8f0; }
+.param-col { width: 200px; font-size: 13px; font-weight: 600; color: #475569; }
+.val-col   { font-size: 14px; text-align: center; }
+.th-name   { font-size: 15px; font-weight: 800; color: #0d1b2a; }
+.th-city   { font-size: 11px; color: #64748b; margin-top: 2px; }
+.cmp-table td { padding: 11px 16px; border-bottom: 1px solid #f1f5f9; }
+.tr-even   { background: #fafbfc; }
+.best-cell { background: #f0fdf4 !important; }
+.best-star { color: #16a34a; font-size: 12px; margin-left: 4px; }
+.cmp-legend{ font-size: 11px; color: #94a3b8; text-align: right; margin-top: 8px; font-style: italic; }
+.cmp-empty { padding: 60px; text-align: center; }
+@media(max-width: 700px){ .cmp-selectors{ grid-template-columns: 1fr; } .param-col{ width: 140px; font-size: 12px; } }
