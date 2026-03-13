@@ -1,7 +1,8 @@
 // ── Zameen API Helper ─────────────────────────────────────────
 // All fetch calls to Node.js backend go through this file
 
-const BASE = '/api';   // proxied to http://localhost:5000 via package.json proxy
+const BASE = "https://elegant-insight-production-d440.up.railway.app/api";
+
 
 // helper
 async function request(url, options = {}) {
